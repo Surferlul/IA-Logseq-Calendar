@@ -1,51 +1,89 @@
 var events = [
   {
-    title: "All Day Event",
-    start: "2023-09-01",
+    title: "Auffrischung Mathematik - Teil 1",
+    start: "2023-10-04T10:30:00",
+    end: "2023-10-04T12:00:00",
+    url: "https://ia.lu-dev.de/#/page/auffrischung%20mathematik%2F23-10-04"
   },
   {
-    title: "Long Event",
-    start: "2023-09-07",
-    end: "2023-09-10",
+    title: "Auffrischung Mathematik - Teil 2",
+    start: "2023-10-05T10:30:00",
+    end: "2023-10-05T12:00:00",
+    url: "https://ia.lu-dev.de/#/page/auffrischung%20mathematik%2F23-10-05",
+    classNames: ["incomplete-page"]
   },
   {
-    groupId: "999",
-    title: "Repeating Event",
-    start: "2023-09-09T16:00:00",
+    title: "Auffrischung Mathematik - Teil 3",
+    start: "2023-10-06T10:30:00",
+    end: "2023-10-06T12:00:00",
+    classNames: ["missing-page"]
   },
   {
-    groupId: "999",
-    title: "Repeating Event",
-    start: "2023-09-16T16:00:00",
+    title: "Mathematik für Informatiker 1",
+    start: "2023-10-09T13:00:00",
+    end: "2023-10-09T14:30:00",
+    classNames: ["missing-page"]
   },
   {
-    title: "Conference",
-    start: "2023-09-11",
-    end: "2023-09-13",
+    title: "Grundlagen und Diskrete Strukturen",
+    start: "2023-10-10T09:00:00",
+    end: "2023-10-10T10:30:00",
+    url: "https://ia.lu-dev.de/#/page/grundlagen%20und%20diskrete%20strukturen%2F23-10-10"
   },
   {
-    title: "Meeting",
-    start: "2023-09-12T10:30:00",
-    end: "2023-09-12T12:30:00",
+    title: "Übung: Programmierung und Algorithmen",
+    start: "2023-10-10T11:00:00",
+    end: "2023-10-10T12:30:00",
+    classNames: ["missing-page"]
   },
   {
-    title: "Lunch",
-    start: "2023-09-12T12:00:00",
+    title: "Rechnerorganisation",
+    start: "2023-10-10T13:00:00",
+    end: "2023-10-10T14:30:00",
+    classNames: ["cancelled-event"]
   },
   {
-    title: "Meeting",
-    start: "2023-09-12T14:30:00",
-    url: "https://lu-dev.de",
+    title: "Programmierung und Algorithmen",
+    start: "2023-10-11T11:00:00",
+    end: "2023-10-11T12:30:00",
+    classNames: ["missing-page"]
   },
   {
-    title: "Birthday Party",
-    start: "2023-09-13T07:00:00",
+    title: "Mathematik für Informatiker 1",
+    start: "2023-10-11T15:00:00",
+    end: "2023-10-11T16:30:00",
+    classNames: ["missing-page"]
   },
   {
-    title: "Click for Google",
-    url: "https://google.com/",
-    start: "2023-09-28",
+    title: "Übung: Grundlagen und Diskrete Strukturen",
+    start: "2023-10-11T17:15:00",
+    end: "2023-10-11T18:45:00",
+    classNames: ["missing-page"]
   },
+  {
+    title: "Rechnerorganisation",
+    start: "2023-10-12T13:00:00",
+    end: "2023-10-12T14:30:00",
+    classNames: ["missing-page"]
+  },
+  {
+    title: "Programmierung und Algorithmen",
+    start: "2023-10-12T17:00:00",
+    end: "2023-10-12T18:30:00",
+    classNames: ["missing-page"]
+  },
+  {
+    title: "Grundlagen und Diskrete Strukturen",
+    start: "2023-10-13T09:00:00",
+    end: "2023-10-13T10:30:00",
+    url: "https://ia.lu-dev.de/#/page/grundlagen%20und%20diskrete%20strukturen%2F23-10-13"
+  },
+  {
+    title: "Übung: Mathematik für Informatiker 1",
+    start: "2023-10-13T11:00:00",
+    end: "2023-10-13T12:30:00",
+    classNames: ["missing-page"]
+  }, 
 ];
 
 document.addEventListener("DOMContentLoaded", function () {
