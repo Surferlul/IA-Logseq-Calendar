@@ -53,6 +53,10 @@ a.fc-event.fc-daygrid-event[href]:visited {
   background: #947e00;
 }
 
+.complete-page {
+  background: var(--fc-event-bg-color);
+}
+
 .cancelled-event {
   background: repeating-linear-gradient(45deg,
       #555,

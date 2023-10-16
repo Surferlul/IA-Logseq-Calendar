@@ -3,7 +3,8 @@ var events = [
     title: "Auffrischung Mathematik - Teil 1",
     start: "2023-10-04T10:30:00",
     end: "2023-10-04T12:00:00",
-    url: "https://ia.lu-dev.de/#/page/auffrischung%20mathematik%2F23-10-04"
+    url: "https://ia.lu-dev.de/#/page/auffrischung%20mathematik%2F23-10-04",
+    classNames: ["complete-page"]
   },
   {
     title: "Auffrischung Mathematik - Teil 2",
@@ -28,7 +29,8 @@ var events = [
     title: "Grundlagen und Diskrete Strukturen",
     start: "2023-10-10T09:00:00",
     end: "2023-10-10T10:30:00",
-    url: "https://ia.lu-dev.de/#/page/grundlagen%20und%20diskrete%20strukturen%2F23-10-10"
+    url: "https://ia.lu-dev.de/#/page/grundlagen%20und%20diskrete%20strukturen%2F23-10-10",
+    classNames: ["complete-page"]
   },
   {
     title: "Übung: Programmierung und Algorithmen",
@@ -76,7 +78,8 @@ var events = [
     title: "Grundlagen und Diskrete Strukturen",
     start: "2023-10-13T09:00:00",
     end: "2023-10-13T10:30:00",
-    url: "https://ia.lu-dev.de/#/page/grundlagen%20und%20diskrete%20strukturen%2F23-10-13"
+    url: "https://ia.lu-dev.de/#/page/grundlagen%20und%20diskrete%20strukturen%2F23-10-13",
+    classNames: ["complete-page"]
   },
   {
     title: "Übung: Mathematik für Informatiker 1",
@@ -84,6 +87,12 @@ var events = [
     end: "2023-10-13T12:30:00",
     classNames: ["missing-page"]
   }, 
+  {
+    title: "Mathematik für Informatiker 1",
+    start: "2023-10-16T13:00:00",
+    end: "2023-10-16T14:30:00",
+    classNames: ["missing-page"]
+  },
 ];
 
 document.addEventListener("DOMContentLoaded", function () {
