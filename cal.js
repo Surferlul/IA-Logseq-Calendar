@@ -11,7 +11,7 @@ var events = [
         start: "2023-10-05T10:30:00",
         end: "2023-10-05T12:00:00",
         url: "https://ia.lu-dev.de/#/page/auffrischung%20mathematik%2F23-10-05",
-        classNames: ["incomplete-page"]
+        classNames: ["complete-page"]
       },
       {
         title: "Auffrischung Mathematik - Teil 3",
@@ -129,6 +129,24 @@ var events = [
         end: "2023-10-18T18:45:00",
         classNames: ["missing-page"]
       },
+      {
+        title: "Rechnerorganisation",
+        start: "2023-10-19T13:00:00",
+        end: "2023-10-19T14:30:00",
+        classNames: ["missing-page"]
+      },
+      {
+        title: "Grundlagen und Diskrete Strukturen",
+        start: "2023-10-20T09:00:00",
+        end: "2023-10-20T10:30:00",
+        classNames: ["missing-page"]
+      },
+      {
+        title: "Übung: Mathematik für Informatiker 1",
+        start: "2023-10-20T11:00:00",
+        end: "2023-10-20T12:30:00",
+        classNames: ["missing-page"]
+  }
 ];
 
 document.addEventListener("DOMContentLoaded", function () {
